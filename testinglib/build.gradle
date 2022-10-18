@@ -46,10 +46,6 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-
-                groupId = 'com.github.piyushsolwin'
-                artifactId = 'solwinlib'
-                version = '1.0.0'
             }
         }
     }
